@@ -1,0 +1,8 @@
+<div class="left">
+    <h2 style="color: #6f7173 !important; ">Add Tutorial</h2>
+    <input type="text" placeholder="name" #name>
+    <input type="text" placeholder="url" #url>
+
+    <button (click)="addTutorial(name.value,url.value)">Create</button>
+    <a routerLink=''>Back to list</a>
+</div>
